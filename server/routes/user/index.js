@@ -187,7 +187,7 @@ router.post(
             const token = await generateToken(user);
 
             // in this step we make a string and string contain a frontend url resetPage url and also set a token for the validate user
-            const resetPasswordLink = `http://localhost:3000/reset_password?token=${token}`;
+            const resetPasswordLink = `https://authappwebapp-git-master-saket-singhs-projects-d972c4c4.vercel.app/reset_password?token=${token}`;
 
             // send email for reset password process
             let title = "you have received reset password link";
